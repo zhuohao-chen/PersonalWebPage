@@ -1,0 +1,11 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">OpenSCAD parametric model placeholder</title>
+  <desc id="desc">Abstract parametric 3D model with computational design grid.</desc>
+  <rect width="1200" height="760" fill="#F8FBFF"/>
+  <path d="M202 577L600 346L998 577L600 704L202 577Z" fill="#D9EAFF"/>
+  <path d="M600 96L998 326V577L600 346V96Z" fill="#2B6CB0" opacity="0.28"/>
+  <path d="M202 326L600 96V346L202 577V326Z" fill="#174C83" opacity="0.22"/>
+  <path d="M202 326L600 96L998 326L600 557L202 326Z" fill="#FFFFFF" stroke="#174C83" stroke-width="8"/>
+  <path d="M442 406C501 304 558 253 613 253C690 253 754 321 754 404C754 489 690 547 605 547C525 547 464 501 442 406Z" fill="#C99A2E" opacity="0.7"/>
+  <path d="M434 190V614M600 96V704M766 190V614M300 270L900 616M900 270L300 616" stroke="#0B1736" stroke-width="4" opacity="0.18"/>
+</svg>

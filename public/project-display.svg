@@ -1,0 +1,13 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Predictive display placeholder</title>
+  <desc id="desc">Abstract predictive display interface with delayed spatial trajectories.</desc>
+  <rect width="1200" height="760" fill="#EEF6FF"/>
+  <rect x="155" y="130" width="890" height="500" rx="40" fill="white"/>
+  <path d="M257 509C375 363 482 303 579 330C676 357 767 288 851 123" stroke="#174C83" stroke-width="12" stroke-linecap="round"/>
+  <path d="M257 563C381 462 491 428 586 462C681 496 775 449 868 321" stroke="#C99A2E" stroke-width="10" stroke-linecap="round" stroke-dasharray="22 24"/>
+  <circle cx="579" cy="330" r="30" fill="#0B1736"/>
+  <circle cx="586" cy="462" r="24" fill="#C99A2E"/>
+  <rect x="210" y="193" width="204" height="44" rx="22" fill="#D9EAFF"/>
+  <rect x="210" y="263" width="148" height="24" rx="12" fill="#2B6CB0" opacity="0.3"/>
+  <rect x="210" y="314" width="176" height="24" rx="12" fill="#2B6CB0" opacity="0.22"/>
+</svg>

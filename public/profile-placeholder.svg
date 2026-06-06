@@ -1,0 +1,13 @@
+<svg width="900" height="1125" viewBox="0 0 900 1125" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">Abstract portrait placeholder with soft academic mixed reality styling.</desc>
+  <rect width="900" height="1125" fill="#EEF6FF"/>
+  <circle cx="450" cy="382" r="150" fill="#D9EAFF"/>
+  <circle cx="450" cy="350" r="106" fill="#0B1736"/>
+  <path d="M186 953C222 741 310 622 450 622C590 622 678 741 714 953H186Z" fill="#174C83"/>
+  <path d="M154 216C260 96 443 54 594 121C718 176 791 303 778 444C761 625 614 771 431 773C282 775 151 681 103 541C64 426 83 296 154 216Z" stroke="#2B6CB0" stroke-width="16" stroke-dasharray="28 24" opacity="0.45"/>
+  <path d="M204 226H696" stroke="#C99A2E" stroke-width="10" stroke-linecap="round" opacity="0.65"/>
+  <path d="M262 889H638" stroke="#D9EAFF" stroke-width="20" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="708" cy="198" r="42" fill="#C99A2E" opacity="0.42"/>
+  <circle cx="177" cy="725" r="54" fill="#2B6CB0" opacity="0.16"/>
+</svg>

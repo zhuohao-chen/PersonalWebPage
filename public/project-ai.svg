@@ -1,0 +1,15 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Generative AI character design placeholder</title>
+  <desc id="desc">Abstract character design interface with generative AI nodes.</desc>
+  <rect width="1200" height="760" fill="#F8FBFF"/>
+  <rect x="130" y="115" width="940" height="530" rx="42" fill="white" stroke="#D9EAFF" stroke-width="6"/>
+  <circle cx="389" cy="335" r="92" fill="#0B1736"/>
+  <path d="M254 572C280 476 326 428 389 428C452 428 498 476 524 572H254Z" fill="#174C83"/>
+  <rect x="617" y="204" width="310" height="48" rx="24" fill="#D9EAFF"/>
+  <rect x="617" y="292" width="400" height="28" rx="14" fill="#2B6CB0" opacity="0.32"/>
+  <rect x="617" y="350" width="335" height="28" rx="14" fill="#2B6CB0" opacity="0.24"/>
+  <rect x="617" y="408" width="370" height="28" rx="14" fill="#2B6CB0" opacity="0.2"/>
+  <circle cx="842" cy="520" r="48" fill="#C99A2E" opacity="0.74"/>
+  <circle cx="697" cy="520" r="32" fill="#174C83" opacity="0.82"/>
+  <path d="M729 520H794" stroke="#0B1736" stroke-width="8" stroke-linecap="round" opacity="0.25"/>
+</svg>

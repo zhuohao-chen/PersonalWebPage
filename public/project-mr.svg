@@ -1,0 +1,15 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Outdoor mixed reality placeholder</title>
+  <desc id="desc">Abstract outdoor mixed reality path with spatial sensing overlays.</desc>
+  <rect width="1200" height="760" fill="#F8FBFF"/>
+  <path d="M0 569C148 502 295 474 442 486C645 503 780 607 1200 515V760H0V569Z" fill="#D9EAFF"/>
+  <path d="M119 548C297 479 440 471 548 524C656 577 762 585 867 548C972 511 1041 497 1074 507" stroke="#174C83" stroke-width="12" stroke-linecap="round"/>
+  <rect x="662" y="210" width="158" height="234" rx="34" fill="#0B1736" opacity="0.9"/>
+  <rect x="690" y="242" width="102" height="54" rx="18" fill="#2B6CB0"/>
+  <circle cx="403" cy="340" r="65" fill="#C99A2E" opacity="0.75"/>
+  <path d="M260 168H940M260 260H940M260 352H940" stroke="#2B6CB0" stroke-width="4" stroke-dasharray="12 18" opacity="0.28"/>
+  <circle cx="300" cy="462" r="34" fill="#0B1736"/>
+  <path d="M300 496V590" stroke="#0B1736" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="888" cy="442" r="34" fill="#174C83"/>
+  <path d="M888 476V570" stroke="#174C83" stroke-width="16" stroke-linecap="round"/>
+</svg>

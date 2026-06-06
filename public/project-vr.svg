@@ -1,0 +1,14 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">VR museum placeholder</title>
+  <desc id="desc">Abstract virtual museum gallery with immersive interaction elements.</desc>
+  <rect width="1200" height="760" fill="#EEF6FF"/>
+  <path d="M164 625V174H1036V625H164Z" fill="white"/>
+  <path d="M164 625L420 440H780L1036 625H164Z" fill="#D9EAFF"/>
+  <rect x="258" y="252" width="168" height="130" rx="12" fill="#174C83"/>
+  <rect x="774" y="252" width="168" height="130" rx="12" fill="#174C83"/>
+  <rect x="495" y="220" width="210" height="162" rx="16" fill="#0B1736"/>
+  <circle cx="600" cy="301" r="42" fill="#2B6CB0"/>
+  <path d="M380 506H820" stroke="#0B1736" stroke-width="14" stroke-linecap="round" opacity="0.22"/>
+  <circle cx="505" cy="506" r="38" fill="#C99A2E" opacity="0.74"/>
+  <circle cx="695" cy="506" r="38" fill="#2B6CB0" opacity="0.55"/>
+</svg>
