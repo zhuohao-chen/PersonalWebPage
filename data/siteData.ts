@@ -119,7 +119,7 @@ export const researchInterests = [
 ];
 
 export const news: NewsItem[] = [
-  { date: "Sep 2026", text: "Starting my Ph.D. program in Computer Science." },
+  { date: "Sep 2026", text: "Starting my Ph.D. program in Computer Science in UBC." },
   {
     date: "May 2026",
     text: "Completed my M.S. in Computer Graphics Technology at Purdue University."
