@@ -120,10 +120,10 @@ export const researchInterests = [
 
 export const news: NewsItem[] = [
   // { date: "Sep 2026", text: "Starting my Ph.D. program in Computer Science at University of British Columbia." },
-  // {
-  //   date: "May 2026",
-  //   text: "Completed my M.S. in Computer Graphics Technology at Purdue University."
-  // },
+  {
+    date: "May 2026",
+    text: "Completed my M.S. in Computer Graphics Technology at Purdue University."
+  },
   {
     date: "2026",
     text: "Paper accepted to the 4th Workshop on Locomotion and Wayfinding in XR at IEEE VR 2026."
