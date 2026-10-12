@@ -9,7 +9,7 @@ export default function ResearchInterests() {
           <div>
             <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">Interests</h2>
             <p className="mt-4 text-base leading-8 text-slate-300">
-              My research sits at the intersection of situated interaction, sensing, and adaptive mixed-reality
+              My research sits at the intersection of situated interaction, sensing, and adaptive XR
               interface design.
             </p>
           </div>

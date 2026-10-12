@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Zhuohao Chen | XR & HCI Researcher",
   description:
-    "Academic personal website for Zhuohao Chen, incoming Ph.D. student and XR/HCI researcher."
+    "Academic personal website for Zhuohao Chen, Ph.D. student in Computer Science at the University of British Columbia (UBC) and XR/HCI researcher."
 };
 
 export default function RootLayout({

@@ -21,8 +21,8 @@ export default function Contact() {
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-academicGold">Contact</p>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Let&apos;s Connect</h2>
             <p className="mt-4 max-w-xl text-base leading-8 text-slate-200">
-              I am interested in research conversations around adaptive XR, mixed-reality interaction, behavioral
-              sensing, and user-centered system design.
+              I am interested in research conversations around adaptive interfaces, behavioral sensing, situated
+              interaction, and user-centered XR system design.
             </p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2">

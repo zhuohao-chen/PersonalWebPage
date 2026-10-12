@@ -16,6 +16,7 @@ export type NewsItem = {
 };
 
 export type Publication = {
+  researchId: string;
   title: string;
   authors: string;
   venue: string;
@@ -34,6 +35,7 @@ export type Publication = {
 };
 
 export type Project = {
+  researchId: string;
   title: string;
   tags: string[];
   description: string;
@@ -44,6 +46,14 @@ export type Project = {
 export type SkillGroup = {
   category: string;
   items: string[];
+};
+
+export type VideoProject = {
+  title: string;
+  tags: string[];
+  description: string;
+  videoId: string;
+  highlight?: string;
 };
 
 export type Award = {
@@ -71,15 +81,15 @@ export const navItems: NavItem[] = [
 
 export const profile = {
   name: "Zhuohao Chen",
-  title: "Incoming Ph.D. Student | XR & HCI Researcher",
-  affiliation: "M.S., Computer Graphics Technology, Purdue University",
+  title: "Ph.D. Student in Computer Science | XR & HCI Researcher",
+  affiliation: "University of British Columbia (UBC)",
   tagline:
-    "I design and study adaptive XR systems that support perception, attention, and interaction in mobile mixed-reality environments.",
-  email: "chen5299@purdue.edu",
+    "I design and study adaptive XR systems that support perception, attention, and interaction during everyday mobile tasks.",
+  email: "zhchen01@student.ubc.ca",
   profileImage: "/profile.jpg",
   profileImageAlt:
     "Profile photo placeholder for Zhuohao Chen. Replace with a professional headshot.",
-  tags: ["XR", "HCI", "Mixed Reality", "Adaptive Interfaces", "Behavioral Sensing", "Unity", "User Studies"]
+  tags: ["XR", "HCI", "Adaptive Interfaces", "Behavioral Sensing", "Unity", "User Studies"]
 };
 
 export const links = {
@@ -92,9 +102,15 @@ export const links = {
 };
 
 export const bio =
-  "I am an incoming Ph.D. student in Computer Science with a research background in Extended Reality and Human-Computer Interaction. My work focuses on adaptive AR/MR interfaces, behavioral sensing, mobile mixed reality, and user-centered XR system design. I am particularly interested in how XR systems can sense user behavior, adapt interface presentation, and support perception, attention, and safety during physically situated tasks.";
+  "I am a Ph.D. student in Computer Science at the University of British Columbia (UBC), with a research background in Extended Reality (XR) and Human-Computer Interaction (HCI). My work focuses on adaptive interfaces, behavioral sensing, and user-centered system design for mobile XR experiences. I am particularly interested in how these systems can sense user behavior, adapt interface presentation, and support perception, attention, and safety during physically situated tasks.";
 
 export const education: EducationItem[] = [
+  {
+    degree: "Ph.D. Computer Science",
+    institution: "University of British Columbia",
+    date: "Present",
+    detail: "Currently enrolled"
+  },
   {
     degree: "M.S. Computer Graphics Technology",
     institution: "Purdue University",
@@ -109,17 +125,16 @@ export const education: EducationItem[] = [
 ];
 
 export const researchInterests = [
-  "Adaptive AR/MR Interfaces",
+  "Adaptive XR Interfaces",
   "Human-Computer Interaction",
   "Mobile and Wearable Computing",
   "Behavioral Sensing in XR",
   "Context-Aware Interfaces",
-  "Spatial Perception in Mixed Reality",
+  "Spatial Perception",
   "Accessibility and Perceptual Augmentation"
 ];
 
 export const news: NewsItem[] = [
-  // { date: "Sep 2026", text: "Starting my Ph.D. program in Computer Science at University of British Columbia." },
   {
     date: "May 2026",
     text: "Completed my M.S. in Computer Graphics Technology at Purdue University."
@@ -140,8 +155,9 @@ export const news: NewsItem[] = [
 
 export const publications: Publication[] = [
   {
+    researchId: "outdoor-mr",
     title: "Exploring Perception and Avoidance Behavior toward Real and Virtual Humans in Outdoor Mixed Reality",
-    authors: "<strong>Zhuohao Chen*</strong>, Zihan Wu*, and Christos Mousas",
+    authors: "<strong>Zhuohao Chen*</strong>, Zhenhua Wu*, and Christos Mousas",
     venue: "Proceedings of the 4th Workshop on Locomotion and Wayfinding in XR (Low-XR) at IEEE VR 2026",
     year: "2026",
     status: "Published / Accepted",
@@ -154,10 +170,11 @@ export const publications: Publication[] = [
     }
   },
   {
+    researchId: "ai-characters",
     title:
       "A Systematic Review of Generative AI on Game Character Creation: Applications, Challenges, and Future Trends",
     authors:
-      "Zihan Wu, <strong>Zhuohao Chen</strong>, Donghan Zhu, Christos Mousas, and Dominic Kao",
+      "Zhenhua Wu, <strong>Zhuohao Chen</strong>, Di Zhu, Christos Mousas, and Dominic Kao",
     venue: "IEEE Transactions on Games, Early Access",
     year: "2025",
     status: "Published / Early Access",
@@ -168,6 +185,7 @@ export const publications: Publication[] = [
     }
   },
   {
+    researchId: "predictive-display",
     title: "Visual Design for Predictive Display in Spatial Time-Delay Environments Considering Workload",
     authors: "J. Yan, J. Sun, T. Tang, and <strong>Zhuohao Chen</strong>",
     venue: "International Conference on Human-Computer Interaction, Springer",
@@ -180,6 +198,7 @@ export const publications: Publication[] = [
     }
   },
   {
+    researchId: "openscad-chun",
     title: "Research and Design of Chinese Cookie Model with Chun Character based on OpenSCAD",
     authors: "<strong>Zhuohao Chen</strong>",
     venue: "CONF-CDS 2023",
@@ -196,44 +215,73 @@ export const publications: Publication[] = [
 
 export const projects: Project[] = [
   {
+    researchId: "outdoor-mr",
     title: "Outdoor Mixed Reality Perception and Avoidance",
     tags: ["Meta Quest 3", "Mixed Reality", "Spatial Perception", "User Study", "Cognitive Load"],
     description:
-      "Investigated perception, avoidance behavior, and psychological equivalence of real and virtual obstacles or humans in outdoor mixed-reality environments. The project involved controlled experiments, movement analysis, reaction-time measures, spatial presence, and cognitive-load assessment.",
+      "Controlled outdoor MR experiments with movement analysis, reaction-time measures, spatial presence, and cognitive-load assessment.",
     image: "/OutdoorPerception.png",
     imageAlt: "Abstract outdoor mixed reality scene placeholder"
   },
   {
+    researchId: "ai-characters",
     title: "Generative AI for Game Character Creation",
     tags: ["Generative AI", "Game Design", "Character Design", "Literature Review", "PRISMA"],
     description:
-      "Conducted a systematic review of 72 studies on generative AI in game character design. Contributed to statistical tables, visual classification frameworks, LaTeX formatting, and manuscript development.",
+      "Contributed statistical tables, visual classification frameworks, LaTeX formatting, and manuscript development for a systematic review of 72 studies.",
     image: "/AICharacter.jpg",
     imageAlt: "Abstract game character creation workflow placeholder"
   },
   {
+    researchId: "predictive-display",
     title: "Predictive Display in Spatial Time-Delay Environments",
     tags: ["HCI", "Predictive Display", "VR-PGI", "I-PGI", "Workload", "Experiment Design"],
     description:
-      "Studied predictive display technologies for remote interaction under spatial time delays. Assisted in experimental design, participant recruitment, and data collection using a virtual simulation platform.",
+      "Assisted in experimental design, participant recruitment, and data collection using a virtual simulation platform for remote interaction.",
     image: "/PredictiveDisplay.jpg",
     imageAlt: "Abstract predictive display interface placeholder"
   },
   {
+    researchId: "openscad-chun",
     title: "Parametric Chinese Cookie Model with OpenSCAD",
     tags: ["OpenSCAD", "Computational Design", "Parametric Modeling", "Cultural Design"],
     description:
       "Designed and implemented a generative 3D modeling approach to create a Chinese \"Chun\" character cookie model using OpenSCAD.",
     image: "/OpenscadChun.jpg",
     imageAlt: "Abstract parametric 3D modeling placeholder"
+  }
+];
+
+export const videoProjects: VideoProject[] = [
+  {
+    title: "VR Museum: Interactive Chinese Bronze Artifacts",
+    tags: ["Virtual Reality", "Cultural Heritage", "Spatial UI", "Interaction Design"],
+    description:
+      "An immersive exhibition of bronze artifacts from the Xia, Shang, and Zhou dynasties. Visitors can pick up, rotate, and examine 3D artifacts, explore historical information panels, and navigate the museum through hand-based interactions and VR controllers.",
+    videoId: "6mFThLHzhrc"
   },
   {
-    title: "Interactive VR Museum System",
-    tags: ["Unity", "HTC Vive", "Virtual Reality", "Interaction Design", "Usability"],
+    title: "VR Special Forces Training Simulator",
+    highlight: "2024 Bachelor's Thesis · Sole Developer",
+    tags: ["Unity", "C#", "Oculus VR", "VRTK", "Interactive Simulation"],
     description:
-      "Developed an interactive VR museum system using Unity and HTC Vive. Implemented immersive environment features and user interaction logic to support usability studies.",
-    image: "/VRMuseum.webp",
-    imageAlt: "Abstract virtual reality museum placeholder"
+      "Independently designed and developed a scenario-based VR training system for my bachelor's graduation project. Integrated virtual firearm interactions, enemy AI, character animation, VR locomotion, and performance evaluation across shooting-range and hostage-rescue scenarios.",
+    videoId: "O_v8QOfAn-g"
+  },
+  {
+    title: "Junk Planet (垃圾星球改造计划)",
+    tags: ["2D Management Simulation", "Strategy", "Environmental Education"],
+    description:
+      "A management simulation game about restoring a polluted planet. Players sort waste, allocate workers and resources, construct recycling facilities, and manage visitors while learning about environmental protection and sustainable development.",
+    videoId: "986ehtQaUZY"
+  },
+  {
+    title: "Qian Zi Jue (千字诀)",
+    highlight: "2022 · National Second Prize, Chinese Collegiate Computing Competition",
+    tags: ["Unity", "C#", "2D Action RPG", "Chinese Character Mechanics", "Game AI"],
+    description:
+      "A team-developed, side-scrolling action RPG combining Chinese character culture with combat, exploration, and light roguelike elements. Players collect, decompose, and recombine characters to unlock abilities and experiment with combat strategies in a story-driven adventure.",
+    videoId: "81oxYSo6nD4"
   }
 ];
 

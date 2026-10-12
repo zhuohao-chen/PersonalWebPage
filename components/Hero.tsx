@@ -1,12 +1,12 @@
 import Image from "next/image";
-import { links, profile } from "@/data/siteData";
+import { links, profile, projects, videoProjects } from "@/data/siteData";
 
 export default function Hero() {
   return (
     <section id="home" className="section-shell pt-12 sm:pt-16 lg:pt-20">
       <div className="grid items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
         <div>
-          <p className="section-kicker">XR, HCI, and mixed reality research</p>
+          <p className="section-kicker">XR & HCI Research</p>
           <h1 className="mt-5 text-4xl font-semibold tracking-tight text-navy-900 sm:text-5xl lg:text-6xl">
             {profile.name}
           </h1>
@@ -92,7 +92,7 @@ export default function Hero() {
                 <p className="mt-1 text-xs font-medium uppercase tracking-wide text-slate-500">Publications</p>
               </div>
               <div className="rounded-xl bg-white/80 px-3 py-4">
-                <p className="text-2xl font-semibold text-navy-900">5</p>
+                <p className="text-2xl font-semibold text-navy-900">{projects.length + videoProjects.length}</p>
                 <p className="mt-1 text-xs font-medium uppercase tracking-wide text-slate-500">Projects</p>
               </div>
               <div className="rounded-xl bg-white/80 px-3 py-4">
